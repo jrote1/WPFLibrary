@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Web.ServiceLocator.Ninject</id>
+    <version>1.0.0.4</version>
+    <title>ServiceLocator Ninject</title>
+    <authors>Jiří Tůma</authors>
+    <owners>Jiří Tůma</owners>
+    <licenseUrl>https://github.com/ninject/ninject.extensions.wcf/raw/master/LICENSE.txt</licenseUrl>
+    <projectUrl>http://www.ninject.org/</projectUrl>
+    <iconUrl>https://github.com/ninject/ninject/raw/master/logos/Ninject-Logo32.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Bootstrapper for web projects</description>
+    <language>en-US</language>
+    <tags>Ninject ioc di ASP.NET</tags>
+    <dependencies>
+      <dependency id="Ninject" version="[3.0.0.0, 3.1.0.0)" />
+      <dependency id="WebActivator" version="1.5" />
+      <dependency id="CommonServiceLocator" version="1.0" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="Microsoft.Web.Infrastructure" targetFramework=".NETFramework4.0" />
+    </frameworkAssemblies>
+  </metadata>
+</package>
