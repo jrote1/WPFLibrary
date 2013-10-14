@@ -1,0 +1,14 @@
+\\WIN-J2KIE2G41NU\User Folders\Administrator\Desktop\GitHub\WPFLibrary\WPFLibraryTests\bin\Release\WPFLibraryTests.dll
+\\WIN-J2KIE2G41NU\User Folders\Administrator\Desktop\GitHub\WPFLibrary\WPFLibraryTests\bin\Release\WPFLibraryTests.pdb
+\\WIN-J2KIE2G41NU\User Folders\Administrator\Desktop\GitHub\WPFLibrary\WPFLibraryTests\bin\Release\Microsoft.Practices.ServiceLocation.dll
+\\WIN-J2KIE2G41NU\User Folders\Administrator\Desktop\GitHub\WPFLibrary\WPFLibraryTests\bin\Release\nunit.framework.dll
+\\WIN-J2KIE2G41NU\User Folders\Administrator\Desktop\GitHub\WPFLibrary\WPFLibraryTests\bin\Release\Rhino.Mocks.dll
+\\WIN-J2KIE2G41NU\User Folders\Administrator\Desktop\GitHub\WPFLibrary\WPFLibraryTests\bin\Release\WPFLibrary.dll
+\\WIN-J2KIE2G41NU\User Folders\Administrator\Desktop\GitHub\WPFLibrary\WPFLibraryTests\bin\Release\WPFLibrary.pdb
+\\WIN-J2KIE2G41NU\User Folders\Administrator\Desktop\GitHub\WPFLibrary\WPFLibraryTests\bin\Release\Microsoft.Practices.ServiceLocation.pdb
+\\WIN-J2KIE2G41NU\User Folders\Administrator\Desktop\GitHub\WPFLibrary\WPFLibraryTests\bin\Release\Microsoft.Practices.ServiceLocation.xml
+\\WIN-J2KIE2G41NU\User Folders\Administrator\Desktop\GitHub\WPFLibrary\WPFLibraryTests\bin\Release\nunit.framework.xml
+\\WIN-J2KIE2G41NU\User Folders\Administrator\Desktop\GitHub\WPFLibrary\WPFLibraryTests\bin\Release\Rhino.Mocks.xml
+\\WIN-J2KIE2G41NU\User Folders\Administrator\Desktop\GitHub\WPFLibrary\WPFLibraryTests\obj\Release\WPFLibraryTests.csprojResolveAssemblyReference.cache
+\\WIN-J2KIE2G41NU\User Folders\Administrator\Desktop\GitHub\WPFLibrary\WPFLibraryTests\obj\Release\WPFLibraryTests.dll
+\\WIN-J2KIE2G41NU\User Folders\Administrator\Desktop\GitHub\WPFLibrary\WPFLibraryTests\obj\Release\WPFLibraryTests.pdb

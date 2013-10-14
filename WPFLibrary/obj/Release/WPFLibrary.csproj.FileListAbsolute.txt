@@ -5,3 +5,11 @@
 \\WIN-J2KIE2G41NU\User Folders\Administrator\Documents\Visual Studio 2012\Projects\WPFLibrary\WPFLibrary\bin\Release\Microsoft.Practices.ServiceLocation.xml
 \\WIN-J2KIE2G41NU\User Folders\Administrator\Documents\Visual Studio 2012\Projects\WPFLibrary\WPFLibrary\obj\Release\WPFLibrary.dll
 \\WIN-J2KIE2G41NU\User Folders\Administrator\Documents\Visual Studio 2012\Projects\WPFLibrary\WPFLibrary\obj\Release\WPFLibrary.pdb
+\\WIN-J2KIE2G41NU\User Folders\Administrator\Desktop\GitHub\WPFLibrary\WPFLibrary\bin\Release\WPFLibrary.dll
+\\WIN-J2KIE2G41NU\User Folders\Administrator\Desktop\GitHub\WPFLibrary\WPFLibrary\bin\Release\WPFLibrary.pdb
+\\WIN-J2KIE2G41NU\User Folders\Administrator\Desktop\GitHub\WPFLibrary\WPFLibrary\bin\Release\Microsoft.Practices.ServiceLocation.dll
+\\WIN-J2KIE2G41NU\User Folders\Administrator\Desktop\GitHub\WPFLibrary\WPFLibrary\bin\Release\Microsoft.Practices.ServiceLocation.pdb
+\\WIN-J2KIE2G41NU\User Folders\Administrator\Desktop\GitHub\WPFLibrary\WPFLibrary\bin\Release\Microsoft.Practices.ServiceLocation.xml
+\\WIN-J2KIE2G41NU\User Folders\Administrator\Desktop\GitHub\WPFLibrary\WPFLibrary\obj\Release\WPFLibrary.csprojResolveAssemblyReference.cache
+\\WIN-J2KIE2G41NU\User Folders\Administrator\Desktop\GitHub\WPFLibrary\WPFLibrary\obj\Release\WPFLibrary.dll
+\\WIN-J2KIE2G41NU\User Folders\Administrator\Desktop\GitHub\WPFLibrary\WPFLibrary\obj\Release\WPFLibrary.pdb

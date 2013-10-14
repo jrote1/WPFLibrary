@@ -1,5 +1,4 @@
 ﻿using System;
-using WPFLibrary.InternalBaseClasses;
 
 namespace WPFLibrary.Interfaces
 {

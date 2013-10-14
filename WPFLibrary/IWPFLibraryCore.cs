@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Reflection;
 using WPFLibrary.Interfaces;
-using WPFLibrary.InternalBaseClasses;
 
 namespace WPFLibrary
 {

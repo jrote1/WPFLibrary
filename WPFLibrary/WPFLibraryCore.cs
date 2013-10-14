@@ -2,7 +2,6 @@
 using System.Reflection;
 using WPFLibrary.Implementations;
 using WPFLibrary.Interfaces;
-using WPFLibrary.InternalBaseClasses;
 using WPFLibrary.Tools;
 
 namespace WPFLibrary

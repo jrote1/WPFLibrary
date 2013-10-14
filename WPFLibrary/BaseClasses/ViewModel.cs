@@ -1,7 +1,4 @@
-﻿using System;
-using System.ComponentModel;
-using System.Reflection;
-using System.Runtime.CompilerServices;
+﻿using System.Reflection;
 using System.Windows.Controls;
 using WPFLibrary.Implementations;
 using WPFLibrary.Interfaces;
