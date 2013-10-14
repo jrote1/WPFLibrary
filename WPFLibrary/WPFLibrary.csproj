@@ -30,9 +30,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Castle.Core">
-      <HintPath>..\packages\Castle.Core.3.2.1\lib\net45\Castle.Core.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.Practices.ServiceLocation">
       <HintPath>..\packages\CommonServiceLocator.1.0\lib\NET35\Microsoft.Practices.ServiceLocation.dll</HintPath>
     </Reference>
@@ -54,14 +51,16 @@
   <ItemGroup>
     <Compile Include="BaseClasses\ViewModel.cs" />
     <Compile Include="BaseClasses\IViewModelCommands.cs" />
+    <Compile Include="Tools\Interceptor.cs" />
+    <Compile Include="Interfaces\IInterceptorNotifiable.cs" />
     <Compile Include="Interfaces\IServiceLocator.cs" />
     <Compile Include="Interfaces\IViewModelManager.cs" />
     <Compile Include="Implementations\ServiceLocator.cs" />
     <Compile Include="Implementations\ViewModelManager.cs" />
+    <Compile Include="InternalBaseClasses\ViewModel.cs" />
     <Compile Include="IWPFLibraryCore.cs" />
     <Compile Include="Tools\DataTemplateMapper.cs" />
     <Compile Include="Interfaces\IViewModelProvider.cs" />
-    <Compile Include="InternalBaseClasses\ViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="InternalBaseClasses\ViewModelCommands.cs" />
     <Compile Include="Tools\RelayCommand.cs" />

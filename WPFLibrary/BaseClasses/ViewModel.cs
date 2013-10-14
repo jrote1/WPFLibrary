@@ -1,4 +1,7 @@
-﻿using System.Reflection;
+﻿using System;
+using System.ComponentModel;
+using System.Reflection;
+using System.Runtime.CompilerServices;
 using System.Windows.Controls;
 using WPFLibrary.Implementations;
 using WPFLibrary.Interfaces;
@@ -20,5 +23,7 @@ namespace WPFLibrary.BaseClasses
             Commands = serviceLocator.GetInstance<TViewModelCommands>();
             typeof(TViewModelCommands).GetProperty("ViewModel",BindingFlags.Instance | BindingFlags.NonPublic).SetValue(Commands, this);
         }
+
+        
     }
 }

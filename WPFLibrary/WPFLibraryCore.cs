@@ -38,7 +38,7 @@ namespace WPFLibrary
             _assembly = assembly;
         }
 
-        public TViewModel GetViewModel<TViewModel>(object data = null) where TViewModel : ViewModel
+        public TViewModel GetViewModel<TViewModel>(object data = null) where TViewModel : MarshalByRefObject, IInterceptorNotifiable, new()
         {
            return  _viewModelManager.GetViewModel<TViewModel>(_assembly, data);
         }

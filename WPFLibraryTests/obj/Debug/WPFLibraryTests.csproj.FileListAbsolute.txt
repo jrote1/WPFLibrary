@@ -12,3 +12,17 @@
 \\WIN-J2KIE2G41NU\User Folders\Administrator\Documents\Visual Studio 2012\Projects\WPFLibrary\WPFLibraryTests\bin\Debug\Microsoft.Practices.ServiceLocation.xml
 \\WIN-J2KIE2G41NU\User Folders\Administrator\Documents\Visual Studio 2012\Projects\WPFLibrary\WPFLibraryTests\obj\Debug\WPFLibraryTests.dll
 \\WIN-J2KIE2G41NU\User Folders\Administrator\Documents\Visual Studio 2012\Projects\WPFLibrary\WPFLibraryTests\obj\Debug\WPFLibraryTests.pdb
+\\WIN-J2KIE2G41NU\User Folders\Administrator\Desktop\GitHub\WPFLibrary\WPFLibraryTests\bin\Debug\WPFLibraryTests.dll
+\\WIN-J2KIE2G41NU\User Folders\Administrator\Desktop\GitHub\WPFLibrary\WPFLibraryTests\bin\Debug\WPFLibraryTests.pdb
+\\WIN-J2KIE2G41NU\User Folders\Administrator\Desktop\GitHub\WPFLibrary\WPFLibraryTests\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+\\WIN-J2KIE2G41NU\User Folders\Administrator\Desktop\GitHub\WPFLibrary\WPFLibraryTests\bin\Debug\nunit.framework.dll
+\\WIN-J2KIE2G41NU\User Folders\Administrator\Desktop\GitHub\WPFLibrary\WPFLibraryTests\bin\Debug\Rhino.Mocks.dll
+\\WIN-J2KIE2G41NU\User Folders\Administrator\Desktop\GitHub\WPFLibrary\WPFLibraryTests\bin\Debug\WPFLibrary.dll
+\\WIN-J2KIE2G41NU\User Folders\Administrator\Desktop\GitHub\WPFLibrary\WPFLibraryTests\bin\Debug\WPFLibrary.pdb
+\\WIN-J2KIE2G41NU\User Folders\Administrator\Desktop\GitHub\WPFLibrary\WPFLibraryTests\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+\\WIN-J2KIE2G41NU\User Folders\Administrator\Desktop\GitHub\WPFLibrary\WPFLibraryTests\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+\\WIN-J2KIE2G41NU\User Folders\Administrator\Desktop\GitHub\WPFLibrary\WPFLibraryTests\bin\Debug\nunit.framework.xml
+\\WIN-J2KIE2G41NU\User Folders\Administrator\Desktop\GitHub\WPFLibrary\WPFLibraryTests\bin\Debug\Rhino.Mocks.xml
+\\WIN-J2KIE2G41NU\User Folders\Administrator\Desktop\GitHub\WPFLibrary\WPFLibraryTests\obj\Debug\WPFLibraryTests.csprojResolveAssemblyReference.cache
+\\WIN-J2KIE2G41NU\User Folders\Administrator\Desktop\GitHub\WPFLibrary\WPFLibraryTests\obj\Debug\WPFLibraryTests.dll
+\\WIN-J2KIE2G41NU\User Folders\Administrator\Desktop\GitHub\WPFLibrary\WPFLibraryTests\obj\Debug\WPFLibraryTests.pdb

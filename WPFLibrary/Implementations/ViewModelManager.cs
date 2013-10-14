@@ -2,9 +2,12 @@
 using System.Linq;
 using System.Reflection;
 using System.Runtime.CompilerServices;
+using System.Windows.Controls;
 using Castle.DynamicProxy;
+using WPFLibrary.BaseClasses;
 using WPFLibrary.Interfaces;
 using WPFLibrary.InternalBaseClasses;
+using WPFLibrary.Tools;
 
 [assembly: InternalsVisibleTo("WPFLibraryTests")]
 namespace WPFLibrary.Implementations
@@ -23,7 +26,7 @@ namespace WPFLibrary.Implementations
             _serviceLocator = serviceLocator;
         }
 
-        public TViewModel GetViewModel<TViewModel>(Assembly assembly, object data = null) where TViewModel : ViewModel
+        public TViewModel GetViewModel<TViewModel>(Assembly assembly, object data = null) where TViewModel : MarshalByRefObject, IInterceptorNotifiable, new()
         {
             var types = (from type in assembly.GetTypes()
                          where typeof(IViewModelProvider<TViewModel>).IsAssignableFrom(type)
@@ -36,7 +39,7 @@ namespace WPFLibrary.Implementations
 
             var viewModel = viewModelProvider.GetViewModel(data);
 
-            return viewModel;
+            return Interceptor<TViewModel>.Create(viewModel);
         }
     }
 }

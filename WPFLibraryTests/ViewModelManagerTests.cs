@@ -39,7 +39,7 @@ namespace WPFLibraryTests
         [Test]
         public void CallsGetInstanceCorrectly()
         {
-            _serviceLocator.Stub(x => x.GetInstance(typeof (TestViewModelProvider))).Return(new TestViewModelProvider());
+            _serviceLocator.Stub(x => x.GetInstance(typeof (TestViewModelProvider))).Return(new TestViewModelProvider(_serviceLocator));
             
             _viewModelManager.GetViewModel<TestViewModel1>(Assembly.GetAssembly(typeof(TestViewModel1)));
             
@@ -51,19 +51,26 @@ namespace WPFLibraryTests
         {
             const String data = "data";
 
-            _serviceLocator.Stub(x => x.GetInstance(typeof(TestViewModelProvider))).Return(new TestViewModelProvider());
+            _serviceLocator.Stub(x => x.GetInstance(typeof(TestViewModelProvider))).Return(new TestViewModelProvider(_serviceLocator));
 
             var viewModel = _viewModelManager.GetViewModel<TestViewModel1>(Assembly.GetAssembly(typeof(TestViewModel1)),data);
-
+            
             Assert.AreEqual(data,viewModel.Test);
         }
     }
 
     public class TestViewModelProvider : IViewModelProvider<TestViewModel1>
     {
+        private readonly IServiceLocator _serviceLocator;
+
+        public TestViewModelProvider(IServiceLocator serviceLocator)
+        {
+            _serviceLocator = serviceLocator;
+        }
+
         public TestViewModel1 GetViewModel(object data = null)
         {
-            return new TestViewModel1
+            return new TestViewModel1(_serviceLocator)
             {
                 Test = data as String
             };
@@ -72,6 +79,16 @@ namespace WPFLibraryTests
 
     public class TestViewModel1 : ViewModel<TestView1, TestViewModelCommands1>
     {
+        public TestViewModel1()
+        {
+
+        }
+
+        public TestViewModel1(IServiceLocator serviceLocator)
+            : base(serviceLocator)
+        {
+
+        }
         public String Test { get; set; }
     }
     public class TestViewModelCommands1 : ViewModelCommands<TestViewModel1> { }
